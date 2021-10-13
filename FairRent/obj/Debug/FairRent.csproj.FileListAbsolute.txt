@@ -1,0 +1,16 @@
+D:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\bin\Debug\FairRent.exe.config
+D:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\bin\Debug\FairRent.exe
+D:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\bin\Debug\FairRent.pdb
+D:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.csprojAssemblyReference.cache
+D:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.MainForm.resources
+D:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.Properties.Resources.resources
+D:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.csproj.GenerateResource.cache
+D:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.csproj.CoreCompileInputs.cache
+D:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.exe
+D:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.pdb
+d:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.Clients.resources
+D:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.EditClientDialog.resources
+d:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.RatesDialog.resources
+d:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.WorkSheets.resources
+d:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.Message.resources
+d:\Software Development\BCIT\2614 C#\00-FairRent\FairRent2020\FairRent\FairRent\obj\Debug\FairRent.csproj.ResolveComReference.cache
