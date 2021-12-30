@@ -106,12 +106,12 @@ namespace FairRent
 
             if (isNew)
             {
-                this.Text = string.Format("{0} {1}", "Új", this.Text.ToLower());
+                this.Text = string.Format("{0} {1}", "New", this.Text);
                 textBoxPlateNumber.Select();
             }
             else
             {
-                this.Text = string.Format("{0} {1}", this.Text, "módosítás");
+                this.Text = string.Format("{0} {1}", "Modify", this.Text);
                 textBoxPlateNumber.ReadOnly = true;
                 checkBoxIsHungarian.Enabled = false;
                 comboBoxCarManufacturer.Select();

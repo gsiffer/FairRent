@@ -58,9 +58,10 @@ namespace FairRent
             // 
             this.pictureBoxMain.ContextMenuStrip = this.contextMenuStripMain;
             this.pictureBoxMain.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMain.Image")));
-            this.pictureBoxMain.Location = new System.Drawing.Point(4, 78);
+            this.pictureBoxMain.Location = new System.Drawing.Point(3, 51);
+            this.pictureBoxMain.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBoxMain.Name = "pictureBoxMain";
-            this.pictureBoxMain.Size = new System.Drawing.Size(837, 488);
+            this.pictureBoxMain.Size = new System.Drawing.Size(558, 317);
             this.pictureBoxMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxMain.TabIndex = 0;
             this.pictureBoxMain.TabStop = false;
@@ -71,7 +72,7 @@ namespace FairRent
             this.contextMenuStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItemUgyfelek});
             this.contextMenuStripMain.Name = "contextMenuStripMain";
-            this.contextMenuStripMain.Size = new System.Drawing.Size(217, 36);
+            this.contextMenuStripMain.Size = new System.Drawing.Size(174, 26);
             // 
             // toolStripMenuItemUgyfelek
             // 
@@ -79,8 +80,8 @@ namespace FairRent
             this.toolStripMenuItemUgyfelek.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItemUgyfelek.Name = "toolStripMenuItemUgyfelek";
             this.toolStripMenuItemUgyfelek.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
-            this.toolStripMenuItemUgyfelek.Size = new System.Drawing.Size(216, 32);
-            this.toolStripMenuItemUgyfelek.Text = "Ügyfelek";
+            this.toolStripMenuItemUgyfelek.Size = new System.Drawing.Size(173, 22);
+            this.toolStripMenuItemUgyfelek.Text = "Customers";
             this.toolStripMenuItemUgyfelek.Click += new System.EventHandler(this.ugyfelekToolStripMenuItem_Click);
             // 
             // timerClock
@@ -92,10 +93,10 @@ namespace FairRent
             this.statusStripMain.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.statusStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabelDisplay});
-            this.statusStripMain.Location = new System.Drawing.Point(0, 586);
+            this.statusStripMain.Location = new System.Drawing.Point(0, 370);
             this.statusStripMain.Name = "statusStripMain";
-            this.statusStripMain.Padding = new System.Windows.Forms.Padding(2, 0, 14, 0);
-            this.statusStripMain.Size = new System.Drawing.Size(846, 32);
+            this.statusStripMain.Padding = new System.Windows.Forms.Padding(1, 0, 9, 0);
+            this.statusStripMain.Size = new System.Drawing.Size(564, 32);
             this.statusStripMain.TabIndex = 2;
             this.statusStripMain.Text = "statusStrip1";
             // 
@@ -103,19 +104,19 @@ namespace FairRent
             // 
             this.toolStripStatusLabelDisplay.AutoSize = false;
             this.toolStripStatusLabelDisplay.Name = "toolStripStatusLabelDisplay";
-            this.toolStripStatusLabelDisplay.Size = new System.Drawing.Size(550, 25);
+            this.toolStripStatusLabelDisplay.Size = new System.Drawing.Size(550, 27);
             this.toolStripStatusLabelDisplay.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // menuStripMain
             // 
-            this.menuStripMain.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStripMain.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.settingToolStripMenuItem});
             this.menuStripMain.Location = new System.Drawing.Point(0, 0);
             this.menuStripMain.Name = "menuStripMain";
-            this.menuStripMain.Size = new System.Drawing.Size(846, 33);
+            this.menuStripMain.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStripMain.Size = new System.Drawing.Size(564, 24);
             this.menuStripMain.TabIndex = 0;
             this.menuStripMain.Text = "menuStrip";
             // 
@@ -128,7 +129,7 @@ namespace FairRent
             this.closeToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(54, 29);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 22);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // ugyfelekToolStripMenuItem
@@ -137,28 +138,28 @@ namespace FairRent
             this.ugyfelekToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ugyfelekToolStripMenuItem.Name = "ugyfelekToolStripMenuItem";
             this.ugyfelekToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
-            this.ugyfelekToolStripMenuItem.Size = new System.Drawing.Size(246, 34);
-            this.ugyfelekToolStripMenuItem.Text = "Ügyfelek";
+            this.ugyfelekToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ugyfelekToolStripMenuItem.Text = "Customers";
             this.ugyfelekToolStripMenuItem.Click += new System.EventHandler(this.ugyfelekToolStripMenuItem_Click);
             // 
             // bezarToolStripMenuItem
             // 
             this.bezarToolStripMenuItem.Name = "bezarToolStripMenuItem";
-            this.bezarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
-            this.bezarToolStripMenuItem.Size = new System.Drawing.Size(246, 34);
-            this.bezarToolStripMenuItem.Text = "Bezár";
+            this.bezarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.bezarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.bezarToolStripMenuItem.Text = "Close";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(243, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.K)));
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(246, 34);
-            this.closeToolStripMenuItem.Text = "Kilép";
+            this.closeToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.closeToolStripMenuItem.Text = "Exit";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
             // settingToolStripMenuItem
@@ -166,14 +167,14 @@ namespace FairRent
             this.settingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ratesToolStripMenuItem});
             this.settingToolStripMenuItem.Name = "settingToolStripMenuItem";
-            this.settingToolStripMenuItem.Size = new System.Drawing.Size(84, 29);
+            this.settingToolStripMenuItem.Size = new System.Drawing.Size(56, 22);
             this.settingToolStripMenuItem.Text = "&Setting";
             // 
             // ratesToolStripMenuItem
             // 
             this.ratesToolStripMenuItem.Name = "ratesToolStripMenuItem";
             this.ratesToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.ratesToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.ratesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ratesToolStripMenuItem.Text = "&Rates";
             this.ratesToolStripMenuItem.Click += new System.EventHandler(this.ratesToolStripMenuItem_Click);
             // 
@@ -182,10 +183,10 @@ namespace FairRent
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 33);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(846, 25);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(564, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStripTop";
             // 
@@ -196,16 +197,16 @@ namespace FairRent
             this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(34, 20);
+            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton1.Text = "toolStripButtonOpen";
-            this.toolStripButton1.ToolTipText = "Ügyfelek megnyitása";
+            this.toolStripButton1.ToolTipText = "Open Customers";
             this.toolStripButton1.Click += new System.EventHandler(this.ugyfelekToolStripMenuItem_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(846, 618);
+            this.ClientSize = new System.Drawing.Size(564, 402);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.statusStripMain);
             this.Controls.Add(this.menuStripMain);
@@ -213,6 +214,7 @@ namespace FairRent
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStripMain;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

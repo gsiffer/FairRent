@@ -290,7 +290,7 @@ namespace FairRent
             {
                 (dataGridViewClients.DataSource as DataTable).DefaultView.RowFilter =
                 string.Format("{0} LIKE '{1}%' AND {2} LIKE '{3}%' AND {4} <= #{5}# AND {6} LIKE 'true'", "rendszam", textBoxFilterPlateNum.Text,
-                              "nev", textBoxFilterName.Text, "muszakivizsga", dateTimePickerTechnicalExamination.Value.Date, "szures");
+                              "nev", textBoxFilterName.Text, "muszakivizsga", dateTimePickerTechnicalExamination.Value, "szures");
             }
             else if (!checkBoxFilterTechnicalExamination.Checked && textBoxFilterIdentificationNumber.Text != string.Empty)
             {

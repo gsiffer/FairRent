@@ -123,14 +123,14 @@ namespace FairRent
             this.labelPlateNumberPrompt.Location = new System.Drawing.Point(15, 17);
             this.labelPlateNumberPrompt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPlateNumberPrompt.Name = "labelPlateNumberPrompt";
-            this.labelPlateNumberPrompt.Size = new System.Drawing.Size(57, 13);
+            this.labelPlateNumberPrompt.Size = new System.Drawing.Size(71, 13);
             this.labelPlateNumberPrompt.TabIndex = 0;
-            this.labelPlateNumberPrompt.Text = "Rendszám";
+            this.labelPlateNumberPrompt.Text = "Plate Number";
             // 
             // textBoxPlateNumber
             // 
             this.textBoxPlateNumber.Location = new System.Drawing.Point(18, 33);
-            this.textBoxPlateNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPlateNumber.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPlateNumber.Name = "textBoxPlateNumber";
             this.textBoxPlateNumber.ReadOnly = true;
             this.textBoxPlateNumber.Size = new System.Drawing.Size(85, 20);
@@ -143,14 +143,14 @@ namespace FairRent
             this.labelClientNamePrompt.Location = new System.Drawing.Point(110, 17);
             this.labelClientNamePrompt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelClientNamePrompt.Name = "labelClientNamePrompt";
-            this.labelClientNamePrompt.Size = new System.Drawing.Size(86, 13);
+            this.labelClientNamePrompt.Size = new System.Drawing.Size(35, 13);
             this.labelClientNamePrompt.TabIndex = 2;
-            this.labelClientNamePrompt.Text = "Tulajdonos neve";
+            this.labelClientNamePrompt.Text = "Name";
             // 
             // textBoxClientName
             // 
             this.textBoxClientName.Location = new System.Drawing.Point(111, 33);
-            this.textBoxClientName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxClientName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxClientName.Name = "textBoxClientName";
             this.textBoxClientName.ReadOnly = true;
             this.textBoxClientName.Size = new System.Drawing.Size(175, 20);
@@ -163,14 +163,14 @@ namespace FairRent
             this.labelPhone1Prompt.Location = new System.Drawing.Point(294, 17);
             this.labelPhone1Prompt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPhone1Prompt.Name = "labelPhone1Prompt";
-            this.labelPhone1Prompt.Size = new System.Drawing.Size(67, 13);
+            this.labelPhone1Prompt.Size = new System.Drawing.Size(38, 13);
             this.labelPhone1Prompt.TabIndex = 4;
-            this.labelPhone1Prompt.Text = "Telefonszám";
+            this.labelPhone1Prompt.Text = "Phone";
             // 
             // textBoxPhone1
             // 
             this.textBoxPhone1.Location = new System.Drawing.Point(295, 33);
-            this.textBoxPhone1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPhone1.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPhone1.Name = "textBoxPhone1";
             this.textBoxPhone1.ReadOnly = true;
             this.textBoxPhone1.Size = new System.Drawing.Size(125, 20);
@@ -183,14 +183,14 @@ namespace FairRent
             this.labelDiscountPrompt.Location = new System.Drawing.Point(393, 58);
             this.labelDiscountPrompt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelDiscountPrompt.Name = "labelDiscountPrompt";
-            this.labelDiscountPrompt.Size = new System.Drawing.Size(68, 13);
+            this.labelDiscountPrompt.Size = new System.Drawing.Size(49, 13);
             this.labelDiscountPrompt.TabIndex = 14;
-            this.labelDiscountPrompt.Text = "Kedvezmény";
+            this.labelDiscountPrompt.Text = "Discount";
             // 
             // textBoxDiscount
             // 
             this.textBoxDiscount.Location = new System.Drawing.Point(396, 75);
-            this.textBoxDiscount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxDiscount.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxDiscount.Name = "textBoxDiscount";
             this.textBoxDiscount.ReadOnly = true;
             this.textBoxDiscount.Size = new System.Drawing.Size(68, 20);
@@ -203,14 +203,14 @@ namespace FairRent
             this.labelEmailAddressPrompt.Location = new System.Drawing.Point(425, 17);
             this.labelEmailAddressPrompt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelEmailAddressPrompt.Name = "labelEmailAddressPrompt";
-            this.labelEmailAddressPrompt.Size = new System.Drawing.Size(53, 13);
+            this.labelEmailAddressPrompt.Size = new System.Drawing.Size(73, 13);
             this.labelEmailAddressPrompt.TabIndex = 6;
-            this.labelEmailAddressPrompt.Text = "Email cím";
+            this.labelEmailAddressPrompt.Text = "Email Address";
             // 
             // textBoxEmailAddress
             // 
             this.textBoxEmailAddress.Location = new System.Drawing.Point(428, 33);
-            this.textBoxEmailAddress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxEmailAddress.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxEmailAddress.Name = "textBoxEmailAddress";
             this.textBoxEmailAddress.ReadOnly = true;
             this.textBoxEmailAddress.Size = new System.Drawing.Size(185, 20);
@@ -223,14 +223,14 @@ namespace FairRent
             this.labelCarManufacturerPrompt.Location = new System.Drawing.Point(15, 58);
             this.labelCarManufacturerPrompt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCarManufacturerPrompt.Name = "labelCarManufacturerPrompt";
-            this.labelCarManufacturerPrompt.Size = new System.Drawing.Size(57, 13);
+            this.labelCarManufacturerPrompt.Size = new System.Drawing.Size(34, 13);
             this.labelCarManufacturerPrompt.TabIndex = 8;
-            this.labelCarManufacturerPrompt.Text = "Gyártmány";
+            this.labelCarManufacturerPrompt.Text = "Make";
             // 
             // textBoxCarManufacturer
             // 
             this.textBoxCarManufacturer.Location = new System.Drawing.Point(18, 75);
-            this.textBoxCarManufacturer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxCarManufacturer.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxCarManufacturer.Name = "textBoxCarManufacturer";
             this.textBoxCarManufacturer.ReadOnly = true;
             this.textBoxCarManufacturer.Size = new System.Drawing.Size(139, 20);
@@ -243,14 +243,14 @@ namespace FairRent
             this.labelCarTypePrompt.Location = new System.Drawing.Point(166, 58);
             this.labelCarTypePrompt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCarTypePrompt.Name = "labelCarTypePrompt";
-            this.labelCarTypePrompt.Size = new System.Drawing.Size(35, 13);
+            this.labelCarTypePrompt.Size = new System.Drawing.Size(36, 13);
             this.labelCarTypePrompt.TabIndex = 10;
-            this.labelCarTypePrompt.Text = "Típus";
+            this.labelCarTypePrompt.Text = "Model";
             // 
             // textBoxCarType
             // 
             this.textBoxCarType.Location = new System.Drawing.Point(167, 75);
-            this.textBoxCarType.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxCarType.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxCarType.Name = "textBoxCarType";
             this.textBoxCarType.ReadOnly = true;
             this.textBoxCarType.Size = new System.Drawing.Size(117, 20);
@@ -263,14 +263,14 @@ namespace FairRent
             this.labelInspectionDatePrompt.Location = new System.Drawing.Point(294, 58);
             this.labelInspectionDatePrompt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelInspectionDatePrompt.Name = "labelInspectionDatePrompt";
-            this.labelInspectionDatePrompt.Size = new System.Drawing.Size(79, 13);
+            this.labelInspectionDatePrompt.Size = new System.Drawing.Size(82, 13);
             this.labelInspectionDatePrompt.TabIndex = 12;
-            this.labelInspectionDatePrompt.Text = "Műszaki vizsga";
+            this.labelInspectionDatePrompt.Text = "Inspection Date";
             // 
             // textBoxInspectionDate
             // 
             this.textBoxInspectionDate.Location = new System.Drawing.Point(295, 75);
-            this.textBoxInspectionDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxInspectionDate.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxInspectionDate.Name = "textBoxInspectionDate";
             this.textBoxInspectionDate.ReadOnly = true;
             this.textBoxInspectionDate.Size = new System.Drawing.Size(90, 20);
@@ -283,14 +283,14 @@ namespace FairRent
             this.labelOdometerPrompt.Location = new System.Drawing.Point(15, 101);
             this.labelOdometerPrompt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelOdometerPrompt.Name = "labelOdometerPrompt";
-            this.labelOdometerPrompt.Size = new System.Drawing.Size(64, 13);
+            this.labelOdometerPrompt.Size = new System.Drawing.Size(53, 13);
             this.labelOdometerPrompt.TabIndex = 21;
-            this.labelOdometerPrompt.Text = "Km-óra állás";
+            this.labelOdometerPrompt.Text = "Odometer";
             // 
             // textBoxOdometer
             // 
             this.textBoxOdometer.Location = new System.Drawing.Point(18, 118);
-            this.textBoxOdometer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxOdometer.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxOdometer.Name = "textBoxOdometer";
             this.textBoxOdometer.Size = new System.Drawing.Size(85, 20);
             this.textBoxOdometer.TabIndex = 22;
@@ -300,7 +300,7 @@ namespace FairRent
             // 
             this.checkBoxIsActive.AutoSize = true;
             this.checkBoxIsActive.Location = new System.Drawing.Point(219, 119);
-            this.checkBoxIsActive.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBoxIsActive.Margin = new System.Windows.Forms.Padding(2);
             this.checkBoxIsActive.Name = "checkBoxIsActive";
             this.checkBoxIsActive.Size = new System.Drawing.Size(110, 17);
             this.checkBoxIsActive.TabIndex = 25;
@@ -314,15 +314,15 @@ namespace FairRent
             this.labelCreateDatePrompt.Location = new System.Drawing.Point(111, 100);
             this.labelCreateDatePrompt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelCreateDatePrompt.Name = "labelCreateDatePrompt";
-            this.labelCreateDatePrompt.Size = new System.Drawing.Size(38, 13);
+            this.labelCreateDatePrompt.Size = new System.Drawing.Size(30, 13);
             this.labelCreateDatePrompt.TabIndex = 23;
-            this.labelCreateDatePrompt.Text = "Dátum";
+            this.labelCreateDatePrompt.Text = "Date";
             // 
             // dateTimePickerCreateDate
             // 
             this.dateTimePickerCreateDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePickerCreateDate.Location = new System.Drawing.Point(113, 116);
-            this.dateTimePickerCreateDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePickerCreateDate.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePickerCreateDate.Name = "dateTimePickerCreateDate";
             this.dateTimePickerCreateDate.Size = new System.Drawing.Size(93, 20);
             this.dateTimePickerCreateDate.TabIndex = 24;
@@ -332,7 +332,7 @@ namespace FairRent
             // 
             this.textBoxNotes.AcceptsReturn = true;
             this.textBoxNotes.Location = new System.Drawing.Point(661, 33);
-            this.textBoxNotes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxNotes.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNotes.MaxLength = 4000;
             this.textBoxNotes.Multiline = true;
             this.textBoxNotes.Name = "textBoxNotes";
@@ -356,7 +356,7 @@ namespace FairRent
             this.tabControlWorkSheet.Controls.Add(this.tabPageParts);
             this.tabControlWorkSheet.Controls.Add(this.tabPageWorkHours);
             this.tabControlWorkSheet.Location = new System.Drawing.Point(18, 213);
-            this.tabControlWorkSheet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControlWorkSheet.Margin = new System.Windows.Forms.Padding(2);
             this.tabControlWorkSheet.Name = "tabControlWorkSheet";
             this.tabControlWorkSheet.SelectedIndex = 0;
             this.tabControlWorkSheet.Size = new System.Drawing.Size(1067, 338);
@@ -367,12 +367,12 @@ namespace FairRent
             // 
             this.tabPageParts.Controls.Add(this.dataGridViewParts);
             this.tabPageParts.Location = new System.Drawing.Point(4, 22);
-            this.tabPageParts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPageParts.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageParts.Name = "tabPageParts";
-            this.tabPageParts.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPageParts.Padding = new System.Windows.Forms.Padding(2);
             this.tabPageParts.Size = new System.Drawing.Size(1059, 312);
             this.tabPageParts.TabIndex = 0;
-            this.tabPageParts.Text = "Felhasznált alkatrészek";
+            this.tabPageParts.Text = "Parts";
             this.tabPageParts.UseVisualStyleBackColor = true;
             // 
             // dataGridViewParts
@@ -380,11 +380,11 @@ namespace FairRent
             this.dataGridViewParts.ColumnHeadersHeight = 25;
             this.dataGridViewParts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewParts.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewParts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewParts.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewParts.Name = "dataGridViewParts";
             this.dataGridViewParts.RowHeadersWidth = 25;
             this.dataGridViewParts.RowTemplate.Height = 28;
-            this.dataGridViewParts.Size = new System.Drawing.Size(1061, 312);
+            this.dataGridViewParts.Size = new System.Drawing.Size(1059, 312);
             this.dataGridViewParts.StandardTab = true;
             this.dataGridViewParts.TabIndex = 0;
             this.dataGridViewParts.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewParts_CellDoubleClick);
@@ -394,24 +394,24 @@ namespace FairRent
             // 
             this.tabPageWorkHours.Controls.Add(this.dataGridViewWorkFees);
             this.tabPageWorkHours.Location = new System.Drawing.Point(4, 22);
-            this.tabPageWorkHours.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPageWorkHours.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageWorkHours.Name = "tabPageWorkHours";
-            this.tabPageWorkHours.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPageWorkHours.Padding = new System.Windows.Forms.Padding(2);
             this.tabPageWorkHours.Size = new System.Drawing.Size(1059, 312);
             this.tabPageWorkHours.TabIndex = 1;
-            this.tabPageWorkHours.Text = "Munkadíj";
+            this.tabPageWorkHours.Text = "Labour Cost";
             this.tabPageWorkHours.UseVisualStyleBackColor = true;
             // 
             // dataGridViewWorkFees
             // 
             this.dataGridViewWorkFees.ColumnHeadersHeight = 25;
             this.dataGridViewWorkFees.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridViewWorkFees.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewWorkFees.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewWorkFees.Location = new System.Drawing.Point(1, 0);
+            this.dataGridViewWorkFees.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewWorkFees.Name = "dataGridViewWorkFees";
             this.dataGridViewWorkFees.RowHeadersWidth = 25;
             this.dataGridViewWorkFees.RowTemplate.Height = 28;
-            this.dataGridViewWorkFees.Size = new System.Drawing.Size(1061, 312);
+            this.dataGridViewWorkFees.Size = new System.Drawing.Size(1058, 312);
             this.dataGridViewWorkFees.StandardTab = true;
             this.dataGridViewWorkFees.TabIndex = 0;
             this.dataGridViewWorkFees.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewWorkFees_CellDoubleClick);
@@ -422,7 +422,7 @@ namespace FairRent
             this.buttonBack.Enabled = false;
             this.buttonBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonBack.Location = new System.Drawing.Point(360, 115);
-            this.buttonBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonBack.Margin = new System.Windows.Forms.Padding(2);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(39, 24);
             this.buttonBack.TabIndex = 27;
@@ -435,7 +435,7 @@ namespace FairRent
             this.buttonNext.Enabled = false;
             this.buttonNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonNext.Location = new System.Drawing.Point(399, 115);
-            this.buttonNext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonNext.Margin = new System.Windows.Forms.Padding(2);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(39, 24);
             this.buttonNext.TabIndex = 28;
@@ -508,7 +508,7 @@ namespace FairRent
             // textBoxMultiplier
             // 
             this.textBoxMultiplier.Location = new System.Drawing.Point(592, 75);
-            this.textBoxMultiplier.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxMultiplier.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxMultiplier.Name = "textBoxMultiplier";
             this.textBoxMultiplier.Size = new System.Drawing.Size(19, 20);
             this.textBoxMultiplier.TabIndex = 18;
@@ -560,7 +560,7 @@ namespace FairRent
             // textBoxPartName
             // 
             this.textBoxPartName.Location = new System.Drawing.Point(17, 183);
-            this.textBoxPartName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPartName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPartName.Name = "textBoxPartName";
             this.textBoxPartName.Size = new System.Drawing.Size(308, 20);
             this.textBoxPartName.TabIndex = 32;
@@ -568,7 +568,7 @@ namespace FairRent
             // textBoxPieces
             // 
             this.textBoxPieces.Location = new System.Drawing.Point(329, 183);
-            this.textBoxPieces.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPieces.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPieces.Name = "textBoxPieces";
             this.textBoxPieces.Size = new System.Drawing.Size(43, 20);
             this.textBoxPieces.TabIndex = 34;
@@ -578,7 +578,7 @@ namespace FairRent
             // textBoxNetPrice
             // 
             this.textBoxNetPrice.Location = new System.Drawing.Point(375, 183);
-            this.textBoxNetPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxNetPrice.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNetPrice.Name = "textBoxNetPrice";
             this.textBoxNetPrice.Size = new System.Drawing.Size(88, 20);
             this.textBoxNetPrice.TabIndex = 36;
@@ -588,7 +588,7 @@ namespace FairRent
             // textBoxPartDiscount
             // 
             this.textBoxPartDiscount.Location = new System.Drawing.Point(604, 183);
-            this.textBoxPartDiscount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPartDiscount.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPartDiscount.Name = "textBoxPartDiscount";
             this.textBoxPartDiscount.Size = new System.Drawing.Size(43, 20);
             this.textBoxPartDiscount.TabIndex = 40;
@@ -598,7 +598,7 @@ namespace FairRent
             // buttonAdd
             // 
             this.buttonAdd.Location = new System.Drawing.Point(796, 182);
-            this.buttonAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonAdd.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(69, 22);
             this.buttonAdd.TabIndex = 56;
@@ -609,7 +609,7 @@ namespace FairRent
             // buttonModify
             // 
             this.buttonModify.Location = new System.Drawing.Point(867, 182);
-            this.buttonModify.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonModify.Margin = new System.Windows.Forms.Padding(2);
             this.buttonModify.Name = "buttonModify";
             this.buttonModify.Size = new System.Drawing.Size(69, 22);
             this.buttonModify.TabIndex = 57;
@@ -620,7 +620,7 @@ namespace FairRent
             // buttonDelete
             // 
             this.buttonDelete.Location = new System.Drawing.Point(939, 182);
-            this.buttonDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonDelete.Margin = new System.Windows.Forms.Padding(2);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(69, 22);
             this.buttonDelete.TabIndex = 58;
@@ -646,7 +646,7 @@ namespace FairRent
             // buttonCancel
             // 
             this.buttonCancel.Location = new System.Drawing.Point(1010, 182);
-            this.buttonCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonCancel.Margin = new System.Windows.Forms.Padding(2);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(69, 22);
             this.buttonCancel.TabIndex = 59;
@@ -662,7 +662,7 @@ namespace FairRent
             // textBoxNetTotalFee
             // 
             this.textBoxNetTotalFee.Location = new System.Drawing.Point(446, 183);
-            this.textBoxNetTotalFee.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxNetTotalFee.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNetTotalFee.Name = "textBoxNetTotalFee";
             this.textBoxNetTotalFee.ReadOnly = true;
             this.textBoxNetTotalFee.Size = new System.Drawing.Size(113, 20);
@@ -674,7 +674,7 @@ namespace FairRent
             // textBoxNetHourFee
             // 
             this.textBoxNetHourFee.Location = new System.Drawing.Point(386, 183);
-            this.textBoxNetHourFee.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxNetHourFee.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxNetHourFee.Name = "textBoxNetHourFee";
             this.textBoxNetHourFee.ReadOnly = true;
             this.textBoxNetHourFee.Size = new System.Drawing.Size(56, 20);
@@ -687,7 +687,7 @@ namespace FairRent
             // textBoxWorkHour
             // 
             this.textBoxWorkHour.Location = new System.Drawing.Point(330, 183);
-            this.textBoxWorkHour.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxWorkHour.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxWorkHour.Name = "textBoxWorkHour";
             this.textBoxWorkHour.Size = new System.Drawing.Size(52, 20);
             this.textBoxWorkHour.TabIndex = 46;
@@ -698,7 +698,7 @@ namespace FairRent
             // textBoxWorkName
             // 
             this.textBoxWorkName.Location = new System.Drawing.Point(18, 183);
-            this.textBoxWorkName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxWorkName.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxWorkName.Name = "textBoxWorkName";
             this.textBoxWorkName.Size = new System.Drawing.Size(308, 20);
             this.textBoxWorkName.TabIndex = 44;
@@ -746,7 +746,7 @@ namespace FairRent
             // textBoxGrossTotal
             // 
             this.textBoxGrossTotal.Location = new System.Drawing.Point(466, 183);
-            this.textBoxGrossTotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxGrossTotal.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxGrossTotal.Name = "textBoxGrossTotal";
             this.textBoxGrossTotal.ReadOnly = true;
             this.textBoxGrossTotal.Size = new System.Drawing.Size(135, 20);
@@ -777,7 +777,7 @@ namespace FairRent
             // textBoxPartTotal
             // 
             this.textBoxPartTotal.Location = new System.Drawing.Point(650, 183);
-            this.textBoxPartTotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxPartTotal.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxPartTotal.Name = "textBoxPartTotal";
             this.textBoxPartTotal.ReadOnly = true;
             this.textBoxPartTotal.Size = new System.Drawing.Size(135, 20);
@@ -788,7 +788,7 @@ namespace FairRent
             // textBoxWorkDiscount
             // 
             this.textBoxWorkDiscount.Location = new System.Drawing.Point(563, 183);
-            this.textBoxWorkDiscount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxWorkDiscount.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxWorkDiscount.Name = "textBoxWorkDiscount";
             this.textBoxWorkDiscount.Size = new System.Drawing.Size(43, 20);
             this.textBoxWorkDiscount.TabIndex = 52;
@@ -818,7 +818,7 @@ namespace FairRent
             // textBoxWorkTotal
             // 
             this.textBoxWorkTotal.Location = new System.Drawing.Point(610, 183);
-            this.textBoxWorkTotal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxWorkTotal.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxWorkTotal.Name = "textBoxWorkTotal";
             this.textBoxWorkTotal.ReadOnly = true;
             this.textBoxWorkTotal.Size = new System.Drawing.Size(135, 20);
@@ -832,7 +832,7 @@ namespace FairRent
             this.checkBoxIsContractor.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.checkBoxIsContractor.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
             this.checkBoxIsContractor.Location = new System.Drawing.Point(753, 185);
-            this.checkBoxIsContractor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBoxIsContractor.Margin = new System.Windows.Forms.Padding(2);
             this.checkBoxIsContractor.Name = "checkBoxIsContractor";
             this.checkBoxIsContractor.Size = new System.Drawing.Size(44, 17);
             this.checkBoxIsContractor.TabIndex = 55;
@@ -855,7 +855,7 @@ namespace FairRent
             // 
             this.buttonSave.Enabled = false;
             this.buttonSave.Location = new System.Drawing.Point(469, 590);
-            this.buttonSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSave.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(81, 29);
             this.buttonSave.TabIndex = 67;
@@ -867,7 +867,7 @@ namespace FairRent
             // 
             this.buttonExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonExit.Location = new System.Drawing.Point(557, 590);
-            this.buttonExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonExit.Margin = new System.Windows.Forms.Padding(2);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(81, 29);
             this.buttonExit.TabIndex = 68;
@@ -894,7 +894,7 @@ namespace FairRent
             this.buttonBackFast.Enabled = false;
             this.buttonBackFast.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonBackFast.Location = new System.Drawing.Point(335, 115);
-            this.buttonBackFast.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonBackFast.Margin = new System.Windows.Forms.Padding(2);
             this.buttonBackFast.Name = "buttonBackFast";
             this.buttonBackFast.Size = new System.Drawing.Size(25, 24);
             this.buttonBackFast.TabIndex = 26;
@@ -907,7 +907,7 @@ namespace FairRent
             this.buttonNextForward.Enabled = false;
             this.buttonNextForward.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonNextForward.Location = new System.Drawing.Point(438, 115);
-            this.buttonNextForward.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonNextForward.Margin = new System.Windows.Forms.Padding(2);
             this.buttonNextForward.Name = "buttonNextForward";
             this.buttonNextForward.Size = new System.Drawing.Size(25, 24);
             this.buttonNextForward.TabIndex = 29;
@@ -932,6 +932,7 @@ namespace FairRent
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonExit;
             this.ClientSize = new System.Drawing.Size(1214, 643);
+            this.Controls.Add(this.tabControlWorkSheet);
             this.Controls.Add(this.buttonPrintHistory);
             this.Controls.Add(this.buttonNextForward);
             this.Controls.Add(this.buttonBackFast);
@@ -951,7 +952,6 @@ namespace FairRent
             this.Controls.Add(this.labelPartsTotalPrompt);
             this.Controls.Add(this.buttonNext);
             this.Controls.Add(this.buttonBack);
-            this.Controls.Add(this.tabControlWorkSheet);
             this.Controls.Add(this.labelNotesPrompt);
             this.Controls.Add(this.textBoxNotes);
             this.Controls.Add(this.dateTimePickerCreateDate);
@@ -976,7 +976,6 @@ namespace FairRent
             this.Controls.Add(this.textBoxPlateNumber);
             this.Controls.Add(this.labelPlateNumberPrompt);
             this.Controls.Add(this.labelWorkDiscountPrompt);
-            this.Controls.Add(this.labelWorkNamePrompt);
             this.Controls.Add(this.labelWorkHourPrompt);
             this.Controls.Add(this.labelNetHourFeePrompt);
             this.Controls.Add(this.labelNetTotalFeePrompt);
@@ -1002,8 +1001,9 @@ namespace FairRent
             this.Controls.Add(this.labelPartTotalPrompt);
             this.Controls.Add(this.labelCoverPrompt);
             this.Controls.Add(this.textBoxMultiplier);
+            this.Controls.Add(this.labelWorkNamePrompt);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "WorkSheets";

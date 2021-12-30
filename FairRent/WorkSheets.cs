@@ -40,7 +40,7 @@ namespace FairRent
 
         private void WorkSheets_Load(object sender, EventArgs e)
         {
-            this.Text = isNew ? "Új munkalap" : "Munkalap módosítása";
+            this.Text = isNew ? "New Worksheet" : "Modify Worksheet";
             labelWorkSheetCount.Text = ($"{countWorkSheets} / {countWorkSheets}");
 
             errorProviderAddPartAndWorkFee.SetIconPadding(this.buttonAdd, -18);
@@ -727,6 +727,7 @@ namespace FairRent
             labelPartTotalPrompt.Visible = true;
             textBoxPartTotal.Visible = true;
             labelDisplayMultiplierPrompt.Visible = true;
+            textBoxMultiplier.Visible = true;
 
             labelWorkNamePrompt.Visible = false;
             textBoxWorkName.Visible = false;
@@ -1254,5 +1255,6 @@ namespace FairRent
             ExcelSheets.createExcelDocuments("CarHistory", null, workSheetVM);
         }
 
+        
     }
 }

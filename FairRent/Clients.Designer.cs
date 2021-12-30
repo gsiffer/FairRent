@@ -60,11 +60,12 @@ namespace FairRent
             // 
             this.buttonClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.buttonClose.Location = new System.Drawing.Point(1563, 664);
+            this.buttonClose.Location = new System.Drawing.Point(1042, 432);
+            this.buttonClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonClose.Name = "buttonClose";
-            this.buttonClose.Size = new System.Drawing.Size(189, 35);
+            this.buttonClose.Size = new System.Drawing.Size(126, 23);
             this.buttonClose.TabIndex = 7;
-            this.buttonClose.Text = "&Bezár";
+            this.buttonClose.Text = "&Close";
             this.buttonClose.UseVisualStyleBackColor = true;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
@@ -75,11 +76,10 @@ namespace FairRent
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewClients.ColumnHeadersHeight = 25;
             this.dataGridViewClients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridViewClients.Location = new System.Drawing.Point(6, 95);
-            this.dataGridViewClients.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dataGridViewClients.Location = new System.Drawing.Point(4, 62);
             this.dataGridViewClients.Name = "dataGridViewClients";
             this.dataGridViewClients.RowHeadersWidth = 25;
-            this.dataGridViewClients.Size = new System.Drawing.Size(788, 413);
+            this.dataGridViewClients.Size = new System.Drawing.Size(525, 268);
             this.dataGridViewClients.StandardTab = true;
             this.dataGridViewClients.TabIndex = 0;
             this.dataGridViewClients.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCustomers_CellDoubleClick);
@@ -88,90 +88,99 @@ namespace FairRent
             // labelFilterPlateNumPrompt
             // 
             this.labelFilterPlateNumPrompt.AutoSize = true;
-            this.labelFilterPlateNumPrompt.Location = new System.Drawing.Point(39, 19);
+            this.labelFilterPlateNumPrompt.Location = new System.Drawing.Point(26, 12);
+            this.labelFilterPlateNumPrompt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelFilterPlateNumPrompt.Name = "labelFilterPlateNumPrompt";
-            this.labelFilterPlateNumPrompt.Size = new System.Drawing.Size(112, 20);
+            this.labelFilterPlateNumPrompt.Size = new System.Drawing.Size(73, 13);
             this.labelFilterPlateNumPrompt.TabIndex = 8;
-            this.labelFilterPlateNumPrompt.Text = "Szűrés &frsz-ra:";
+            this.labelFilterPlateNumPrompt.Text = "&Plate Nr Filter:";
             // 
             // textBoxFilterPlateNum
             // 
             this.textBoxFilterPlateNum.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBoxFilterPlateNum.Location = new System.Drawing.Point(44, 48);
+            this.textBoxFilterPlateNum.Location = new System.Drawing.Point(29, 31);
+            this.textBoxFilterPlateNum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxFilterPlateNum.Name = "textBoxFilterPlateNum";
-            this.textBoxFilterPlateNum.Size = new System.Drawing.Size(100, 26);
+            this.textBoxFilterPlateNum.Size = new System.Drawing.Size(68, 20);
             this.textBoxFilterPlateNum.TabIndex = 9;
             this.textBoxFilterPlateNum.TextChanged += new System.EventHandler(this.textBoxFilterPlateNum_TextChanged);
             // 
             // textBoxFilterName
             // 
-            this.textBoxFilterName.Location = new System.Drawing.Point(156, 48);
+            this.textBoxFilterName.Location = new System.Drawing.Point(104, 31);
+            this.textBoxFilterName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxFilterName.Name = "textBoxFilterName";
-            this.textBoxFilterName.Size = new System.Drawing.Size(228, 26);
+            this.textBoxFilterName.Size = new System.Drawing.Size(153, 20);
             this.textBoxFilterName.TabIndex = 11;
             this.textBoxFilterName.TextChanged += new System.EventHandler(this.textBoxFilterName_TextChanged);
             // 
             // labelNamePrompt
             // 
             this.labelNamePrompt.AutoSize = true;
-            this.labelNamePrompt.Location = new System.Drawing.Point(152, 19);
+            this.labelNamePrompt.Location = new System.Drawing.Point(101, 12);
+            this.labelNamePrompt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelNamePrompt.Name = "labelNamePrompt";
-            this.labelNamePrompt.Size = new System.Drawing.Size(106, 20);
+            this.labelNamePrompt.Size = new System.Drawing.Size(63, 13);
             this.labelNamePrompt.TabIndex = 10;
-            this.labelNamePrompt.Text = "Szűrés &névre:";
+            this.labelNamePrompt.Text = "N&ame Filter:";
             // 
             // buttonNewClient
             // 
             this.buttonNewClient.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonNewClient.Location = new System.Drawing.Point(1563, 95);
+            this.buttonNewClient.Location = new System.Drawing.Point(1042, 62);
+            this.buttonNewClient.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonNewClient.Name = "buttonNewClient";
-            this.buttonNewClient.Size = new System.Drawing.Size(189, 35);
+            this.buttonNewClient.Size = new System.Drawing.Size(126, 23);
             this.buttonNewClient.TabIndex = 1;
-            this.buttonNewClient.Text = "Ú&j ügyfél";
+            this.buttonNewClient.Text = "&New Customer";
             this.buttonNewClient.UseVisualStyleBackColor = true;
             this.buttonNewClient.Click += new System.EventHandler(this.buttonNewClient_Click);
             // 
             // buttonEditClient
             // 
             this.buttonEditClient.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonEditClient.Location = new System.Drawing.Point(1563, 137);
+            this.buttonEditClient.Location = new System.Drawing.Point(1042, 89);
+            this.buttonEditClient.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonEditClient.Name = "buttonEditClient";
-            this.buttonEditClient.Size = new System.Drawing.Size(189, 35);
+            this.buttonEditClient.Size = new System.Drawing.Size(126, 23);
             this.buttonEditClient.TabIndex = 2;
-            this.buttonEditClient.Text = "Ü&gyfél módosítás";
+            this.buttonEditClient.Text = "&Modify Customer";
             this.buttonEditClient.UseVisualStyleBackColor = true;
             this.buttonEditClient.Click += new System.EventHandler(this.buttonEditClient_Click);
             // 
             // buttonNewWorksheet
             // 
             this.buttonNewWorksheet.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonNewWorksheet.Location = new System.Drawing.Point(1563, 251);
+            this.buttonNewWorksheet.Location = new System.Drawing.Point(1042, 163);
+            this.buttonNewWorksheet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonNewWorksheet.Name = "buttonNewWorksheet";
-            this.buttonNewWorksheet.Size = new System.Drawing.Size(189, 35);
+            this.buttonNewWorksheet.Size = new System.Drawing.Size(126, 23);
             this.buttonNewWorksheet.TabIndex = 4;
-            this.buttonNewWorksheet.Text = "Új &munkalap";
+            this.buttonNewWorksheet.Text = "New &Worksheet";
             this.buttonNewWorksheet.UseVisualStyleBackColor = true;
             this.buttonNewWorksheet.Click += new System.EventHandler(this.buttonNewWorksheet_Click);
             // 
             // buttonEditWorksheet
             // 
             this.buttonEditWorksheet.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonEditWorksheet.Location = new System.Drawing.Point(1563, 292);
+            this.buttonEditWorksheet.Location = new System.Drawing.Point(1042, 190);
+            this.buttonEditWorksheet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonEditWorksheet.Name = "buttonEditWorksheet";
-            this.buttonEditWorksheet.Size = new System.Drawing.Size(189, 35);
+            this.buttonEditWorksheet.Size = new System.Drawing.Size(126, 23);
             this.buttonEditWorksheet.TabIndex = 5;
-            this.buttonEditWorksheet.Text = "M&unkalap módosítás";
+            this.buttonEditWorksheet.Text = "M&odify Worksheet";
             this.buttonEditWorksheet.UseVisualStyleBackColor = true;
             this.buttonEditWorksheet.Click += new System.EventHandler(this.buttonEditWorksheet_Click);
             // 
             // buttonDeleteClient
             // 
             this.buttonDeleteClient.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonDeleteClient.Location = new System.Drawing.Point(1563, 178);
+            this.buttonDeleteClient.Location = new System.Drawing.Point(1042, 116);
+            this.buttonDeleteClient.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonDeleteClient.Name = "buttonDeleteClient";
-            this.buttonDeleteClient.Size = new System.Drawing.Size(189, 35);
+            this.buttonDeleteClient.Size = new System.Drawing.Size(126, 23);
             this.buttonDeleteClient.TabIndex = 3;
-            this.buttonDeleteClient.Text = "Ügyfél &törlése";
+            this.buttonDeleteClient.Text = "&Delete Customer";
             this.buttonDeleteClient.UseVisualStyleBackColor = true;
             this.buttonDeleteClient.Click += new System.EventHandler(this.buttonDeleteClient_Click);
             // 
@@ -181,46 +190,51 @@ namespace FairRent
             this.checkBoxConfirmDeletion.AutoSize = true;
             this.checkBoxConfirmDeletion.Checked = true;
             this.checkBoxConfirmDeletion.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxConfirmDeletion.Location = new System.Drawing.Point(1563, 363);
+            this.checkBoxConfirmDeletion.Location = new System.Drawing.Point(1027, 236);
+            this.checkBoxConfirmDeletion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBoxConfirmDeletion.Name = "checkBoxConfirmDeletion";
-            this.checkBoxConfirmDeletion.Size = new System.Drawing.Size(158, 24);
+            this.checkBoxConfirmDeletion.Size = new System.Drawing.Size(120, 17);
             this.checkBoxConfirmDeletion.TabIndex = 6;
-            this.checkBoxConfirmDeletion.Text = "Tö&rlésre rákérdez";
+            this.checkBoxConfirmDeletion.Text = "Ask &Before Deletion";
             this.checkBoxConfirmDeletion.UseVisualStyleBackColor = true;
             // 
             // buttonClearFilter
             // 
-            this.buttonClearFilter.Location = new System.Drawing.Point(641, 45);
+            this.buttonClearFilter.Location = new System.Drawing.Point(427, 29);
+            this.buttonClearFilter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonClearFilter.Name = "buttonClearFilter";
-            this.buttonClearFilter.Size = new System.Drawing.Size(153, 35);
+            this.buttonClearFilter.Size = new System.Drawing.Size(102, 23);
             this.buttonClearFilter.TabIndex = 14;
-            this.buttonClearFilter.Text = "&Szűrések törlése";
+            this.buttonClearFilter.Text = "Delete Filter&s";
             this.buttonClearFilter.UseVisualStyleBackColor = true;
             this.buttonClearFilter.Click += new System.EventHandler(this.buttonClearFilter_Click);
             // 
             // labelPromptIdentificationNumber
             // 
             this.labelPromptIdentificationNumber.AutoSize = true;
-            this.labelPromptIdentificationNumber.Location = new System.Drawing.Point(392, 19);
+            this.labelPromptIdentificationNumber.Location = new System.Drawing.Point(261, 12);
+            this.labelPromptIdentificationNumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPromptIdentificationNumber.Name = "labelPromptIdentificationNumber";
-            this.labelPromptIdentificationNumber.Size = new System.Drawing.Size(155, 20);
+            this.labelPromptIdentificationNumber.Size = new System.Drawing.Size(111, 13);
             this.labelPromptIdentificationNumber.TabIndex = 12;
-            this.labelPromptIdentificationNumber.Text = "Szűrés &alvázszámra:";
+            this.labelPromptIdentificationNumber.Text = "&Chassis Number Filter:";
             // 
             // textBoxFilterIdentificationNumber
             // 
-            this.textBoxFilterIdentificationNumber.Location = new System.Drawing.Point(396, 48);
+            this.textBoxFilterIdentificationNumber.Location = new System.Drawing.Point(264, 31);
+            this.textBoxFilterIdentificationNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxFilterIdentificationNumber.Name = "textBoxFilterIdentificationNumber";
-            this.textBoxFilterIdentificationNumber.Size = new System.Drawing.Size(228, 26);
+            this.textBoxFilterIdentificationNumber.Size = new System.Drawing.Size(153, 20);
             this.textBoxFilterIdentificationNumber.TabIndex = 13;
             this.textBoxFilterIdentificationNumber.TextChanged += new System.EventHandler(this.textBoxFilterIdentificationNumber_TextChanged);
             // 
             // buttonPrint
             // 
             this.buttonPrint.Enabled = false;
-            this.buttonPrint.Location = new System.Drawing.Point(256, 25);
+            this.buttonPrint.Location = new System.Drawing.Point(171, 16);
+            this.buttonPrint.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonPrint.Name = "buttonPrint";
-            this.buttonPrint.Size = new System.Drawing.Size(132, 35);
+            this.buttonPrint.Size = new System.Drawing.Size(88, 23);
             this.buttonPrint.TabIndex = 2;
             this.buttonPrint.Text = "&Export to Excel";
             this.buttonPrint.UseVisualStyleBackColor = true;
@@ -229,20 +243,22 @@ namespace FairRent
             // checkBoxFilterTechnicalExamination
             // 
             this.checkBoxFilterTechnicalExamination.AutoSize = true;
-            this.checkBoxFilterTechnicalExamination.Location = new System.Drawing.Point(12, 29);
+            this.checkBoxFilterTechnicalExamination.Location = new System.Drawing.Point(8, 19);
+            this.checkBoxFilterTechnicalExamination.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBoxFilterTechnicalExamination.Name = "checkBoxFilterTechnicalExamination";
-            this.checkBoxFilterTechnicalExamination.Size = new System.Drawing.Size(85, 24);
+            this.checkBoxFilterTechnicalExamination.Size = new System.Drawing.Size(48, 17);
             this.checkBoxFilterTechnicalExamination.TabIndex = 0;
-            this.checkBoxFilterTechnicalExamination.Text = "S&zűrés";
+            this.checkBoxFilterTechnicalExamination.Text = "&Filter";
             this.checkBoxFilterTechnicalExamination.UseVisualStyleBackColor = true;
             this.checkBoxFilterTechnicalExamination.CheckedChanged += new System.EventHandler(this.checkBoxFilterTechnicalExamination_CheckedChanged);
             // 
             // dateTimePickerTechnicalExamination
             // 
             this.dateTimePickerTechnicalExamination.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerTechnicalExamination.Location = new System.Drawing.Point(103, 27);
+            this.dateTimePickerTechnicalExamination.Location = new System.Drawing.Point(69, 18);
+            this.dateTimePickerTechnicalExamination.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimePickerTechnicalExamination.Name = "dateTimePickerTechnicalExamination";
-            this.dateTimePickerTechnicalExamination.Size = new System.Drawing.Size(147, 26);
+            this.dateTimePickerTechnicalExamination.Size = new System.Drawing.Size(99, 20);
             this.dateTimePickerTechnicalExamination.TabIndex = 1;
             this.dateTimePickerTechnicalExamination.ValueChanged += new System.EventHandler(this.dateTimePickerTechnicalExamination_ValueChanged);
             // 
@@ -251,38 +267,42 @@ namespace FairRent
             this.groupBoxTechnicalExamination.Controls.Add(this.checkBoxFilterTechnicalExamination);
             this.groupBoxTechnicalExamination.Controls.Add(this.buttonPrint);
             this.groupBoxTechnicalExamination.Controls.Add(this.dateTimePickerTechnicalExamination);
-            this.groupBoxTechnicalExamination.Location = new System.Drawing.Point(845, 19);
+            this.groupBoxTechnicalExamination.Location = new System.Drawing.Point(563, 12);
+            this.groupBoxTechnicalExamination.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBoxTechnicalExamination.Name = "groupBoxTechnicalExamination";
-            this.groupBoxTechnicalExamination.Size = new System.Drawing.Size(397, 72);
+            this.groupBoxTechnicalExamination.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBoxTechnicalExamination.Size = new System.Drawing.Size(265, 47);
             this.groupBoxTechnicalExamination.TabIndex = 15;
             this.groupBoxTechnicalExamination.TabStop = false;
-            this.groupBoxTechnicalExamination.Text = "Szűrés műszaki vizsgára";
+            this.groupBoxTechnicalExamination.Text = "&Inspection Date Filter to";
             // 
             // labelPromptRowsCount
             // 
             this.labelPromptRowsCount.AutoSize = true;
-            this.labelPromptRowsCount.Location = new System.Drawing.Point(1273, 52);
+            this.labelPromptRowsCount.Location = new System.Drawing.Point(849, 34);
+            this.labelPromptRowsCount.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPromptRowsCount.Name = "labelPromptRowsCount";
-            this.labelPromptRowsCount.Size = new System.Drawing.Size(106, 20);
+            this.labelPromptRowsCount.Size = new System.Drawing.Size(62, 13);
             this.labelPromptRowsCount.TabIndex = 18;
-            this.labelPromptRowsCount.Text = "Sorok száma:";
+            this.labelPromptRowsCount.Text = "Row count:";
             // 
             // labelRowsCount
             // 
             this.labelRowsCount.AutoSize = true;
-            this.labelRowsCount.Location = new System.Drawing.Point(1375, 52);
+            this.labelRowsCount.Location = new System.Drawing.Point(917, 34);
+            this.labelRowsCount.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelRowsCount.Name = "labelRowsCount";
-            this.labelRowsCount.Size = new System.Drawing.Size(88, 20);
+            this.labelRowsCount.Size = new System.Drawing.Size(59, 13);
             this.labelRowsCount.TabIndex = 19;
             this.labelRowsCount.Text = "<<Count>>";
             // 
             // Clients
             // 
             this.AcceptButton = this.buttonEditClient;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.buttonClose;
-            this.ClientSize = new System.Drawing.Size(1769, 836);
+            this.ClientSize = new System.Drawing.Size(1179, 543);
             this.Controls.Add(this.labelRowsCount);
             this.Controls.Add(this.labelPromptRowsCount);
             this.Controls.Add(this.groupBoxTechnicalExamination);
@@ -302,6 +322,7 @@ namespace FairRent
             this.Controls.Add(this.dataGridViewClients);
             this.Controls.Add(this.buttonClose);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Clients";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Customers_FormClosing);
